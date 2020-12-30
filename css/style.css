@@ -1,0 +1,94 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+::root {
+  font-family: 'Raleway', sans-serif; }
+
+body {
+  background-color: #F7F6F3; }
+
+main {
+  min-height: 100vh;
+  height: auto; }
+  main aside {
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    background-color: #133333;
+    max-width: 5rem;
+    overflow: hidden; }
+    main aside nav .logo svg {
+      height: 3.5rem;
+      width: 3.5rem;
+      fill: #F7F6F3; }
+    main aside nav .main-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      main aside nav .main-menu .menu-item {
+        margin: 0.5rem auto; }
+        main aside nav .main-menu .menu-item svg {
+          fill: #99B7B8;
+          height: 2rem;
+          width: 2rem; }
+  main .main_contents {
+    left: 5rem;
+    position: absolute; }
+    main .main_contents__section {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 1rem 2rem; }
+      main .main_contents__section__header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 1rem 0; }
+        main .main_contents__section__header svg {
+          fill: #99B7B8;
+          height: 20px;
+          width: 40px; }
+      main .main_contents__section .section__item {
+        width: 10rem;
+        margin: 0.7rem 1rem;
+        overflow: hidden; }
+        main .main_contents__section .section__item img {
+          height: auto;
+          width: 100%;
+          border-radius: 3px;
+          box-shadow: 10px 4px 16px -6px rgba(0, 0, 0, 0.27); }
+      main .main_contents__section__item__contents-item {
+        width: 100%;
+        background-color: #fff;
+        min-height: 2rem;
+        margin-top: 0.2rem;
+        font-weight: 800;
+        color: #99B7B8;
+        padding: 0.1rem; }
+
+h1, h2, h3, h4, h5 {
+  margin-bottom: 0.5rem; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #133333; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2.2rem; }
+
+h3 {
+  font-size: 2rem; }
+
+h4 {
+  font-size: 1.5em; }
+
+h5 {
+  font-size: 1.3rem; }
+
+p {
+  font-size: 1.2rem; }
